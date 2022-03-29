@@ -77,6 +77,8 @@ for number in avril_lottery:
     sum_of_even += number
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+erik_lottery.append(7)
+
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "fluffy"
 # 10. Add another person to the users dictionary
