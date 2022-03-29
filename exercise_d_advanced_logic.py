@@ -16,6 +16,10 @@ print(difference_largest_smallest)
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 
+for index in range(0, len(numbers) - 1):
+    if numbers[index] == 2 and numbers[index + 1] == 2:
+        print(True)
+        break
 
 # 4. Print the sum of the numbers, 
 #    BUT ignore any section of numbers starting with a 6 and extending to the next 7.
