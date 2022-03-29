@@ -26,6 +26,20 @@ for index in range(0, len(numbers) - 1):
 #    
 #    So [11, 6, 4, 99, 7, 11] would have sum of 22
 
+special_sum = 0
+ignore_number = False
+
+for number in numbers:
+    if number == 6:
+        ignore_number = True
+        continue
+
+    if number == 7:
+        ignore_number = False
+        continue
+
+    if ignore_number == False:
+        special_sum += number
 
 # 5. HARD! Print the sum of the numbers. 
 #    Except the number 13 is very unlucky, so it does not count.
