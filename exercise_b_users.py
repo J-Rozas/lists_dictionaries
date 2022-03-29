@@ -70,6 +70,12 @@ monty_species = users["Avril"]["pets"][0]["species"]
 smallest_number = min(erik_lottery)
 
 # 6. Return an list of Avril's lottery numbers that are even
+avril_lottery = erik_lottery = users["Avril"]["lottery_numbers"]
+sum_of_even = 0
+for number in avril_lottery:
+  if number % 2 == 0:
+    sum_of_even += number
+
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "fluffy"
