@@ -80,5 +80,7 @@ for number in avril_lottery:
 erik_lottery.append(7)
 
 # 8. Change Erik's hometown to Edinburgh
+users["Erik"]["home_town"] = "Edinburgh"
+
 # 9. Add a pet dog to Erik called "fluffy"
 # 10. Add another person to the users dictionary
