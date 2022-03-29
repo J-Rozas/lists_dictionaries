@@ -48,6 +48,21 @@ for number in numbers:
 #
 #    So [5, 13, 2] would have sum of 5. 
 
+hard_sum = 0
+
+for index in range(0, len(numbers)):
+    if index == 0:
+        if index == 13:
+            pass
+        else:
+            hard_sum += numbers[index]
+    else:
+        if numbers[index] == 13 or numbers[index - 1] == 13:
+            pass
+        else:
+            hard_sum += numbers[index]
+
+print(hard_sum)
 
 
 
