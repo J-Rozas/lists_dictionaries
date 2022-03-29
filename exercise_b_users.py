@@ -89,3 +89,4 @@ users["Erik"]["pets"].append({
 })
 
 # 10. Add another person to the users dictionary
+users["Placeholder"] = {}
