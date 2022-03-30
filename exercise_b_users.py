@@ -70,7 +70,7 @@ monty_species = users["Avril"]["pets"][0]["species"]
 smallest_number = min(erik_lottery)
 
 # 6. Return an list of Avril's lottery numbers that are even
-avril_lottery = erik_lottery = users["Avril"]["lottery_numbers"]
+avril_lottery = users["Avril"]["lottery_numbers"]
 even_list = []
 for number in avril_lottery:
   if number % 2 == 0:
